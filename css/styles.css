@@ -1,16 +1,16 @@
 @font-face {
   font-family: Neue Haas Grotesk;
-  src: url(./fonts/NHaasGroteskDSPro-55Rg.otf);
+  src: url('./fonts/NHaasGroteskDSPro-55Rg.otf');
 }
 
 @font-face {
   font-family: Wulkan Display;
-  src: url(./fonts/Wulkan-Display-Light.otf);
+  src: url('./fonts/Wulkan-Display-Light.otf');
 }
 
 @font-face {
     font-family: Screamer;
-    src: url(./fonts/FKScreamerTrial-Black-BF65713309d368f.otf);
+    src: url('./fonts/FKScreamerTrial-Black-BF65713309d368f.otf');
 }
 
 body {
