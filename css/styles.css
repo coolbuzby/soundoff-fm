@@ -29,7 +29,8 @@ section#landing {
 }
 
 #landing h1 b {
-    font-family: Arial Black;
+    font-family: Arial;
     letter-spacing: -2px;
     color: orangered;
+    font-weight: 700;
 }
