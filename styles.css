@@ -1,0 +1,100 @@
+*{box-sizing: border-box;}
+body, html{width: 100%; height: 100%;}
+body{position: relative; margin:0; padding:0; background: #000; color: #fff; font-family:sans-serif;}
+
+section#landing {
+    position: relative;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font: 24px/1 Arial;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+body#info header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+section#info {
+    width: 100%;
+    font: 14px/1.2 Courier;
+    padding-bottom: 200px;
+}
+
+section#info div {
+    padding: 5vw;
+}
+
+section#info h1 {
+    text-transform: uppercase;
+}
+
+section#info a {
+    color: orangered;
+    text-decoration: none;
+}
+
+section#info b {
+    text-transform: uppercase;
+}
+
+section#info ul {padding-left: 20px;}
+
+section#info li {margin: 10px 0;}
+
+@media only screen and (max-width: 600px) {
+    
+    section#landing .navigation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    
+    section#landing .navigation a {
+        flex-basis: 50%;
+    }
+    
+    section#landing .navigation a:nth-of-type(even){
+        text-align: right;
+    }
+    
+    body#info .navigation a {
+        font-size: 16px;
+    }
+    
+    section#info {
+        padding-bottom: 67px;
+    }
+    
+}
